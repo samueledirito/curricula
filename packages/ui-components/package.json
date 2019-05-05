@@ -1,6 +1,6 @@
 {
   "name": "@curricula/ui-components",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "build/index.js",
   "scripts": {
@@ -13,7 +13,7 @@
   },
   "babel": {
     "presets": [
-      "@babel/preset-env", 
+      "@babel/preset-env",
       "@babel/preset-react"
     ]
   },
