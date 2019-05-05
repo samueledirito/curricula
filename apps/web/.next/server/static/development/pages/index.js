@@ -93,42 +93,6 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
-/***/ "./components/layout/withLayout.jsx":
-/*!******************************************!*\
-  !*** ./components/layout/withLayout.jsx ***!
-  \******************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "C:\\projects\\repo-github\\curricula\\packages\\fragment-hello\\components\\layout\\withLayout.jsx";
-
-
-var withLayout = function withLayout(Page) {
-  return function () {
-    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 4
-      },
-      __self: this
-    }, "Hello"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Page, {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 5
-      },
-      __self: this
-    }));
-  };
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (withLayout);
-
-/***/ }),
-
 /***/ "./pages/index.js":
 /*!************************!*\
   !*** ./pages/index.js ***!
@@ -146,8 +110,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _material_ui_core_Button__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material-ui/core/Button */ "@material-ui/core/Button");
 /* harmony import */ var _material_ui_core_Button__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _components_layout_withLayout__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/layout/withLayout */ "./components/layout/withLayout.jsx");
-var _jsxFileName = "C:\\projects\\repo-github\\curricula\\packages\\fragment-hello\\pages\\index.js";
+/* harmony import */ var _curricula_ui_components__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @curricula/ui-components */ "@curricula/ui-components");
+/* harmony import */ var _curricula_ui_components__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_curricula_ui_components__WEBPACK_IMPORTED_MODULE_4__);
+var _jsxFileName = "C:\\projects\\repo-github\\curricula\\apps\\web\\pages\\index.js";
 
 
 
@@ -251,7 +216,7 @@ function IndexPage(props) {
 IndexPage.propTypes = {
   classes: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.object.isRequired
 };
-/* harmony default export */ __webpack_exports__["default"] = (Object(_components_layout_withLayout__WEBPACK_IMPORTED_MODULE_4__["default"])(Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_2__["withStyles"])(styles)(IndexPage)));
+/* harmony default export */ __webpack_exports__["default"] = (Object(_curricula_ui_components__WEBPACK_IMPORTED_MODULE_4__["withLayout"])(Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_2__["withStyles"])(styles)(IndexPage)));
 
 /***/ }),
 
@@ -262,8 +227,19 @@ IndexPage.propTypes = {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\projects\repo-github\curricula\packages\fragment-hello\pages\index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! C:\projects\repo-github\curricula\apps\web\pages\index.js */"./pages/index.js");
 
+
+/***/ }),
+
+/***/ "@curricula/ui-components":
+/*!*******************************************!*\
+  !*** external "@curricula/ui-components" ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@curricula/ui-components");
 
 /***/ }),
 

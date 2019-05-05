@@ -1,14 +1,21 @@
 {
   "name": "@curricula/ui-components",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
+    "transpile": "babel src -d build --ignore '**/*.spec.js,**/*.stories.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "peerDependencies": {
     "react": "^16.8.6",
     "react-dom": "16.8.6"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env", 
+      "@babel/preset-react"
+    ]
   },
   "keywords": [],
   "author": "Samuele Di Rito <samuele.dirito@gmail.com>",

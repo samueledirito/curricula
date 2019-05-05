@@ -968,7 +968,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\projects\\repo-github\\curricula\\packages\\fragment-hello\\pages\\_app.js";
+var _jsxFileName = "C:\\projects\\repo-github\\curricula\\apps\\web\\pages\\_app.js";
 
 
 

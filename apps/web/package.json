@@ -1,6 +1,6 @@
 {
   "name": "@curricula/web",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "> TODO: description",
   "author": "Samuele Di Rito <samuele.dirito@gmail.com>",
   "homepage": "https://github.com/samueledirito/curricula#readme",
@@ -18,7 +18,7 @@
     "url": "https://github.com/samueledirito/curricula/issues"
   },
   "dependencies": {
-    "@curricula/ui-components": "^1.0.0",
+    "@curricula/ui-components": "^1.0.1",
     "@material-ui/core": "^3.9.3",
     "@material-ui/icons": "^3.0.2",
     "next": "^8.1.0",
