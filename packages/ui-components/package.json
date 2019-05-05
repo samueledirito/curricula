@@ -19,5 +19,8 @@
   },
   "keywords": [],
   "author": "Samuele Di Rito <samuele.dirito@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "http://nexus.samu.com:8081/repository/npm-private/"
+  }
 }
