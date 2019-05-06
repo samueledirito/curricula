@@ -1,6 +1,15 @@
 {
   "name": "root",
   "private": true,
+  "workspaces": {
+    "packages": [
+      "web/*",
+      "state/*"
+    ],
+    "nohoist": [
+      "mobile/**"
+    ]
+  },
   "devDependencies": {
     "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.4",
