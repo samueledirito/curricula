@@ -1,16 +1,15 @@
 {
-  "name": "@curricula/web-ui-components",
-  "version": "1.0.4",
+  "name": "@curricula/app-ui-components",
+  "version": "1.0.0",
   "description": "",
-  "private": false,
   "main": "build/index.js",
+  "peerDependencies": {
+    "react": "16.6.3",
+    "react-native": "0.57.8"
+  },
   "scripts": {
     "transpile": "babel src -d build --ignore '**/*.spec.js,**/*.stories.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "peerDependencies": {
-    "react": "^16.8.6",
-    "react-dom": "16.8.6"
   },
   "babel": {
     "presets": [
@@ -23,6 +22,5 @@
   "license": "ISC",
   "publishConfig": {
     "registry": "http://nexus.samu.com:8081/repository/npm-private/"
-  },
-  "gitHead": "ae6e980011caac95b6ad80bf6ad49e9a3f724a3d"
+  }
 }

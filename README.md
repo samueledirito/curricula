@@ -12,7 +12,7 @@ From command line, install dependencies in all monorepo with `yarn`. Symlinks an
   - [x] Link component lib to next app
   - [ ] Link component lib to CRA app 
   - [x] Create react native app
-  - [ ] Create react native components lib
+  - [x] Create react native components lib
   - [ ] Link native app and lib
   - [ ] Create Redux state package
   - [ ] Import into web portal
