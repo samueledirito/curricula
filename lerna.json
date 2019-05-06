@@ -1,10 +1,10 @@
 {
   "packages": [
-    "web/*",
     "mobile/*",
-    "state/*"
+    "state/*",
+    "web/*"
   ],
-  "version": "1.0.3",
+  "version": "1.0.4",
   "npmClient": "yarn",
   "useWorkspace": true
 }
