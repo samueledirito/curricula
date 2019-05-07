@@ -4,10 +4,11 @@
   "workspaces": {
     "packages": [
       "web/*",
-      "state/*"
+      "state/*",
+      "mobile/*"
     ],
     "nohoist": [
-      "mobile/**"
+      "mobile/app"
     ]
   },
   "devDependencies": {
@@ -32,6 +33,7 @@
     "babel-loader": "^8.0.5"
   },
   "scripts": {
-    "web": "lerna run dev --stream"
+    "web": "lerna run dev --stream",
+    "android": "lerna run android --scope=@curricula/app"
   }
 }

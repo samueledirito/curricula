@@ -7,13 +7,7 @@
 
 import React from 'react';
 import { StyleSheet, Text } from 'react-native';
-
-const Title = ({text}) =>
-  <Text style={styles.welcome}>{text}</Text>
-
-Title.propTypes = {
-  text: PropTypes.string.isRequired
-}
+import PropTypes from "prop-types";
 
 const styles = StyleSheet.create({
   welcome: {
@@ -22,3 +16,12 @@ const styles = StyleSheet.create({
     margin: 10,
   },
 });
+
+const Title = ({text}) =>
+  <Text style={styles.welcome}>{text}</Text>
+
+Title.propTypes = {
+  text: PropTypes.string.isRequired
+}
+
+export default Title;

@@ -655,6 +655,11 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
+"@curricula/app-ui-components@^1.0.0":
+  version "1.0.5"
+  resolved "http://nexus.samu.com:8081/repository/npm-all/@curricula/app-ui-components/-/app-ui-components-1.0.5.tgz#2a4d856367eedb5351892961b43de44a7a94e862"
+  integrity sha512-L51JAo27N0jBuwRYUqFCkZnIi1iL+QXeGBFSRVIu2r5oDXY9pAt+97m0iosmqEa+mhnNmaUrHz71xYW25KrNSA==
+
 "@jest/console@^24.7.1":
   version "24.7.1"
   resolved "http://nexus.samu.com:8081/repository/npm-all/@jest/console/-/console-24.7.1.tgz#32a9e42535a97aedfe037e725bd67e954b459545"
@@ -4643,7 +4648,7 @@ prompts@^2.0.1:
     kleur "^3.0.2"
     sisteransi "^1.0.0"
 
-prop-types@^15.5.8, prop-types@^15.6.2:
+prop-types@^15.5.8, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "http://nexus.samu.com:8081/repository/npm-all/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==

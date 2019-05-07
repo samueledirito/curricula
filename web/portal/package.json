@@ -19,7 +19,7 @@
     "url": "https://github.com/samueledirito/curricula/issues"
   },
   "dependencies": {
-    "@curricula/ui-components": "^1.0.4",
+    "@curricula/web-ui-components": "^1.0.4",
     "@material-ui/core": "^3.9.3",
     "@material-ui/icons": "^3.0.2",
     "next": "^8.1.0",
